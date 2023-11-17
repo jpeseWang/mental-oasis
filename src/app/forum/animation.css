@@ -1,0 +1,23 @@
+/* App.css */
+
+.like-container {
+  position: relative;
+}
+
+.like-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: like 1s ease-in-out;
+}
+
+@keyframes like {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
